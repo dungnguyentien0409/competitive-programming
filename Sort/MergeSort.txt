@@ -1,0 +1,28 @@
+function merge(arr, left, mid, right) {
+  var left = arr.slice(left, mid);
+  var right = arr.slice(mid);
+  arr = [];
+  
+  var i = 0, j = 0;
+  while(i < left.length && j < right.length) {
+    if (left[i] <= right[j]) arr.push(left[i++]);
+    else arr.push(right[j++]);
+  }
+  
+  while(i < left.length) arr.push(left[i++]);
+  while(j < right.length) arr.push(right[j++]);
+}
+
+function mergeSort(arr, left, right) {
+  if (left < right) {
+    var mid = Math.floor((left + right) / 2);
+    
+    mergeSort(arr, left, mid);
+    mergeSort(arr, mid + 1, right);
+    merge(arr, left, mid, right);
+  }
+}
+
+var arr = [1,5,3,8,9,0];
+mergeSort(arr, 0, arr.length - 1);
+document.writeln("merge: " + JSON.stringify(arr));
