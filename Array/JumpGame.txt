@@ -1,0 +1,22 @@
+/**
+ * Problem: https://leetcode.com/problems/jump-game/
+ * Owner: Dung Nguyen Tien (Chris)
+ * @param {number[]} nums
+ * @return {boolean}
+ */
+var canJump = function(nums) {
+    if (nums.length == 0) return 0;
+    
+    var furthestJump = 0;
+    var curEnd = 0;
+    
+    for (var i = 0; i < nums.length; i++) {
+        furthestJump = Math.max(i + nums[i], furthestJump);
+        if (i == curEnd) {
+            if (furthestJump >= nums.length - 1) return true;
+            curEnd = furthestJump;
+        }
+    }
+    
+    return false;
+};
