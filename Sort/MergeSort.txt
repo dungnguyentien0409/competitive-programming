@@ -1,28 +1,30 @@
-function merge(arr, left, mid, right) {
-  var left = arr.slice(left, mid);
-  var right = arr.slice(mid);
-  arr = [];
-  
-  var i = 0, j = 0;
-  while(i < left.length && j < right.length) {
-    if (left[i] <= right[j]) arr.push(left[i++]);
-    else arr.push(right[j++]);
+/*
+ * Problem: merge sort
+ * Owner: Dung Nguyen Tien (Chris)
+*/
+
+function merge(leftArr, rightArr) {
+  var sortedArr = [];
+  while (leftArr.length && rightArr.length) {
+    if (leftArr[0] <= rightArr[0]) sortedArr.push(leftArr.shift());
+    else sortedArr.push(rightArr.shift());
   }
-  
-  while(i < left.length) arr.push(left[i++]);
-  while(j < right.length) arr.push(right[j++]);
+  while (leftArr.length)
+    sortedArr.push(leftArr.shift());
+  while (rightArr.length)
+    sortedArr.push(rightArr.shift());
+  return sortedArr;
 }
 
-function mergeSort(arr, left, right) {
-  if (left < right) {
-    var mid = Math.floor((left + right) / 2);
-    
-    mergeSort(arr, left, mid);
-    mergeSort(arr, mid + 1, right);
-    merge(arr, left, mid, right);
+function mergesort(arr) {
+  if(arr.length >= 2) {
+    var midpoint = Math.floor(arr.length / 2);
+    var leftArr   = arr.slice(0, midpoint);
+    var rightArr  = arr.slice(midpoint, arr.length);
+    return merge(mergesort(leftArr), mergesort(rightArr));
   }
+  return arr;
 }
-
-var arr = [1,5,3,8,9,0];
-mergeSort(arr, 0, arr.length - 1);
+var arr = [1,2,3];
+arr = mergesort(arr);
 document.writeln("merge: " + JSON.stringify(arr));
