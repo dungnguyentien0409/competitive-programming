@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/01-matrix/submissions/
- * Owner: Dung Nguyen Tien (Chirs)
+ * Author: Dung Nguyen Tien (Chirs)
  * @param {number[][]} matrix
  * @return {number[][]}
  */

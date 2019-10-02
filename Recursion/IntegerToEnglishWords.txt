@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/integer-to-english-words/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number} num
  * @return {string}
  */

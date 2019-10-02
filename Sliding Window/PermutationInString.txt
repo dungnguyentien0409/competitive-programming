@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/permutation-in-string/submissions/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * Using sliding window
  * @param {string} s1
  * @param {string} s2

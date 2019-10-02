@@ -1,6 +1,6 @@
 /*
  * Problem: merge sort
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
 */
 
 function merge(leftArr, rightArr) {

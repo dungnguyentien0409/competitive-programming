@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/word-break-ii/
- * Owner: Dung Nguyen Tien(Chris)
+ * Author: Dung Nguyen Tien(Chris)
  * @param {string} s
  * @param {string[]} wordDict
  * @return {string[]}

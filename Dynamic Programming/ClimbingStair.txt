@@ -1,6 +1,6 @@
 /**
  * Problems: https://leetcode.com/problems/climbing-stairs/solution/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}
  */

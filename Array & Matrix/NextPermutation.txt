@@ -1,6 +1,6 @@
 /**
  * Problem https://leetcode.com/problems/next-permutation/submissions/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */

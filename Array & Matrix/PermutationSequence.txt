@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/permutation-sequence/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @param {number} k
  * @return {string}

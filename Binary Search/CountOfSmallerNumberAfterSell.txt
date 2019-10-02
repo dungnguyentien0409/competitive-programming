@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number[]}
  */

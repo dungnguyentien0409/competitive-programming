@@ -1,6 +1,6 @@
 /**
  * Problems: https://leetcode.com/problems/valid-palindrome-ii/submissions/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {boolean}
  */

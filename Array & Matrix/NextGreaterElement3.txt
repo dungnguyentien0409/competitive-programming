@@ -1,6 +1,6 @@
 /**
  * Prolems: https://leetcode.com/problems/next-greater-element-iii/submissions/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}
  */

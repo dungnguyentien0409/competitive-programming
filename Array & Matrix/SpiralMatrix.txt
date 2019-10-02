@@ -1,6 +1,6 @@
 /**
  * Problem: https://leetcode.com/problems/spiral-matrix/submissions/
- * Owner: Dung Nguyen Tien (Chris)
+ * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} matrix
  * @return {number[]}
  */

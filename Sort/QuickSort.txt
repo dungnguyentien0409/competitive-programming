@@ -1,6 +1,6 @@
 /*
   *Problem: QuickSort
-  *Owner: Dung Nguyen Tien (Chris)
+  *Author: Dung Nguyen Tien (Chris)
 */
 
 function quickSort(arr, low, high) {
