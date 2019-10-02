@@ -1,5 +1,6 @@
 # Competitive Programming Solutions
 I am Chris Dung Nguyen - .NET Developer
+
 This is the reference solutions for Competitive Programmings mostly on leetcode, spoj
 
 I divide them into topics like: array, sort, dynamic programming, so on.
