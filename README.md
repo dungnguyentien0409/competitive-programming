@@ -1,8 +1,8 @@
 # Competitive Programming Solutions
 I am Chrish Dung Nguyen - .NET Developer
-This is the reference solutions for Competitive Programmings mostly on leetcode
+This is the reference solutions for Competitive Programmings mostly on leetcode, spoj
 
-I divide them into topics like: array, sort, dynamic programming.
+I divide them into topics like: array, sort, dynamic programming, so on.
 My code is mostly implemented by Javascript also includes the explaination
 
 Dont forget to give me stars if you think they are helpful.
