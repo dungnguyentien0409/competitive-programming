@@ -17,6 +17,7 @@ var countSmaller = function(nums) {
     arr.splice(index, 0, nums[i]);
     nums[i] = index;
   }
+  //console.log(findIndex([3,7,9], 10));
   
   return nums;
 };
@@ -30,18 +31,15 @@ function findIndex(arr, target) {
     var left = 0;
     var right = arr.length - 1;
     
-    while(left + 1 < right) {
+    while(left != right) {
         var mid = Math.floor((left  + right) / 2);
         
-        // left try to point to the element smaller than target
-        if (arr[mid] < target) left = mid;
+        // left try to point to the element equal to target
+        if (arr[mid] < target) left = mid + 1;
         else right = mid;
     }
     
-    // return position to insert target
-    if (target <= arr[left]) return left;
-    else if (target > arr[right]) return ++right;
-    // cause left try to point to the element smaller than target
-    // target position is left + 1
-    else return ++left;
+    // if the whole array is smaller than target
+    if (arr[left] < target) return left + 1;
+    return left;
 }
