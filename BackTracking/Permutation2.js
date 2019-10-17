@@ -19,7 +19,7 @@ function backTrack(res, tmp, nums, visited) {
     
     for (var i = 0; i < nums.length; i++) {
         // for each element, do back tracking except visited element and duplicated element
-        if (visited[i] || i > 0 && nums[i] == nums[i - 1] && !visited[i - 1]) continue;
+        if (visited[i] || i > 0 && nums[i] == nums[i - 1] && visited[i - 1]) continue;
         
         tmp.push(nums[i]);
         visited[i] = true;
