@@ -1,44 +1,42 @@
 /**
- * Problem: https://leetcode.com/problems/course-schedule-ii/
+ * Problem: https://leetcode.com/problems/course-schedule/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} numCourses
  * @param {number[][]} prerequisites
- * @return {number[]}
+ * @return {boolean}
  */
-var findOrder = function(numCourses, prerequisites) {
-    var order = [];
+var canFinish = function(numCourses, prerequisites) {
+    var learnt = Array(numCourses).fill(false);
+    var total = 0;
     var map = createMap(numCourses, prerequisites);
     
-    while (order.length < numCourses) {
+    // if the course is not equal to total, continue learning
+    while(total < numCourses) {
         var check = false;
         for (var c in map) {
-            var prerequisites = map[c];
-            if (!order.includes(parseInt(c)) && hasLearnt(order, map, c)) {
-                order.push(parseInt(c));
+            if (!learnt[c] && canLearn(learnt, map[c])) {
+                learnt[c] = true;
+                total++;
                 check = true;
             }
         }
         
-        // if go through the list of courses, cant find the next courses to learn, return false
-        if (!check) {
-            return [];
-        }
+        // if go thorugh each course, cant learn anything, and the total is not the numCourses, mean having circle
+        if (!check) return false;
     }
-    
-    return order;
-}
+    return true;
+};
 
-// check if the prerequistics has learnt or not
-function hasLearnt(order, map, c) {
-    var prerequisites = map[c];
-    
-    if (prerequisites.length == 0 ||
-       (order.length > 0 && prerequisites.every(p => order.includes(p)))) return true;
-    
-    return false;
-}
+// check if can learn this course
+function canLearn(learnt, prerequisites) {
+    var can = true;
 
-// for every course, build the list of prerequisties
+    for (var p of prerequisites) can = can && learnt[p];
+    
+    return can;
+}
+         
+// for each course, create the list of prerequisites
 function createMap(numCourses, prerequisites) {
     var map = {};
     
