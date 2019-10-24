@@ -5,22 +5,40 @@
  * @param {number} capacity
  * @return {boolean}
  */
+/**
+ * Problem: https://leetcode.com/problems/car-pooling/submissions/
+ * Author: Dung Nguyen Tien (Chris)
+ * @param {number[][]} trips
+ * @param {number} capacity
+ * @return {boolean}
+ */
 var carPooling = function(trips, capacity) {
-    // we have at most 1000 stop
-    var stops = Array(1001).fill(0);
+    var timeCapacities = generateByTime(trips);
+    var c = 0;
     
-    // calculate the increase or decrease of people for each stop
-    for (var trip of trips) {
-        stops[trip[1]] += trip[0];
-        stops[trip[2]] -= trip[0];
-    }
-    
-    // at each stop count the total
-    var total = 0;
-    for (var i = 0; i <= 1000; i++) {
-        total += stops[i];
-        if (total > capacity) return false;
+    for (var timeCapacity of timeCapacities) {
+        c += timeCapacity[1];
+        if (c > capacity) return false;
     }
     
     return true;
 };
+
+function generateByTime(trips) {
+    var res = [];
+    
+    for (var trip of trips) {
+		// people get in: +capacity, people get out: -capacity
+        res.push([trip[1], trip[0]]);
+        res.push([trip[2], -trip[0]]);
+    }
+    
+    // sort by time, if people can in and out at the same time. let people get out first
+	// so the order like: order by time, if the same time, order asc by capacity
+    res.sort(function(a, b) { 
+        if (a[0] == b[0]) return a[1] - b[1];
+        return a[0] - b[0] 
+    });
+    
+    return res;
+}
