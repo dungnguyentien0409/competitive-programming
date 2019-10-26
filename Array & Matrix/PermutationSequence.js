@@ -26,13 +26,19 @@ var getPermutation = function(n, k) {
     for (var i = 1; i <= n; i++) arr.push(i);
     
     var n2 = n;
-    for (var i = 0; i < n2; i++) {
-        var nf = getFactorial(n - 1)
-        var x = Math.ceil(k/nf) - 1; 
-        res.push(arr.splice(x,1)[0]); 
-        k -= x * nf; 
-        n = n-1; 
+    while(k > 0) {
+        // which group k belong to
+        var items = getFactorial(n2 - 1);
+        var nGroup = Math.ceil(k / items) - 1;
+        var no = arr.splice(nGroup, 1)[0];
+        res.push(no);
+        
+        // calculate inside the group
+        k = k - (nGroup * items);
+        n2 = n2 - 1;
     }
+    // push the last item
+    res.push(arr.splice(0, 1)[0]);
     
     return res.join('');
 };
