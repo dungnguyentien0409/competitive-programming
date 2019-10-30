@@ -1,3 +1,8 @@
+// Problem: https://leetcode.com/problems/interleaving-string/
+// Implement: Dung Nguyen Tien (Chris)
+// Idea by: Tushar Roy
+// Reference: https://www.youtube.com/watch?v=ih2OZ9-M3OM
+
 public class Solution {
     public bool IsInterleave(string s1, string s2, string s3) {
         if (s1.Length + s2.Length != s3.Length) return false;
