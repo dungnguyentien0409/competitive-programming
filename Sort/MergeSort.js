@@ -27,4 +27,4 @@ function mergesort(arr) {
 }
 var arr = [1,2,3];
 arr = mergesort(arr);
-document.writeln("merge: " + JSON.stringify(arr));
+document.writeln("merge: " + JSON.stringify(arr)); 0,1,2,3,4
