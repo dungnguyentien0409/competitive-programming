@@ -5,26 +5,29 @@
  * @return {number}
  */
 var trap = function(height) {
+    var st = [];
+    var i = 0;
     var s_area = 0;
-    var st = []
-    var i = 0
     
     while(i < height.length) {
-        // keep pushing to stack the continously decreasing column
-        // when find a column higher than previous column
-        while(st.length > 0 && height[st[0]] < height[i]) {
-            var top = st.shift();
-            
-            // when there is no trap at all
-            if (st.length == 0) break;
-            
-            // the order of col: height[st[0]] - height[top] - height[i], by that way we can calculate the trapping
-            var h = Math.min(height[i], height[st[0]]) - height[top];
-            var area = h * (i - st[0] - 1);
-            s_area += area
+        var peek = st[st.length - 1];
+        if (st.length == 0 || height[peek] >= height[i]) {
+            st.push(i++);
         }
-        st.unshift(i++);
+        else  {
+            var middle = st.pop();
+            
+            if (st.length == 0) continue;
+            
+            var left = st[st.length - 1];
+            var h = Math.min(height[i], height[left]) - height[middle];
+            var w = i - left - 1;
+            var area = h * w;
+            s_area += area;
+        }
     }
+    
+    console.log(i);
     
     return s_area;
 };
