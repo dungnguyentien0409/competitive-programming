@@ -16,7 +16,6 @@ public class Solution {
         currents.Add(0);
         
         foreach(var interval in intervals) {
-            // pick the room has min end time
             var begin = interval[0];
             var end = interval[1];
             
