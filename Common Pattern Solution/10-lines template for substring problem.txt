@@ -34,4 +34,5 @@ Problem:
 3. Longest Substring Without Repeating Characters
 76. Minimum Window Substring
 159. Longest Substring with At Most Two Distinct Characters
+340. Longest Substring with At Most K Distinct Characters
 395. Longest Substring with At Least K Repeating Characters
