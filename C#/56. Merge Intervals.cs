@@ -14,20 +14,21 @@ public class Solution {
         });
             
         var res = new List<int[]>();
-        foreach(var interval in intervals) {
-            if (res.Count == 0) {
-                res.Add(interval);
+        
+        res.Add(intervals[0]);
+        for(var i = 1; i < intervals.Length; i++) {
+            var current = intervals[i];
+            var prev = res[res.Count - 1];
+            res.RemoveAt(res.Count - 1);
+            
+            if(prev[1] >= current[0]) {
+                var start = Math.Min(prev[0], current[0]);
+                var end = Math.Max(prev[1], current[1]);
+                res.Add(new int[2] {start, end});
             }
             else {
-                while(res.Count > 0 && res[res.Count - 1][1] >= interval[0]) {
-                    var last = res[res.Count - 1];
-                    
-                    interval[0] = Math.Min(interval[0], last[0]);
-                    interval[1] = Math.Max(interval[1], last[1]);
-                    res.RemoveAt(res.Count - 1);
-                }
-                
-                res.Add(interval);
+                res.Add(prev);
+                res.Add(current);
             }
         }
         
