@@ -1,0 +1,10 @@
+1. Define max result and min result
+2. Use binary search to find middle result
+3. Check for that result if possible, increasr if not decrease
+
+410. Split Array Largest Sum
+774. Minimize Max Distance to Gas Station
+875. Koko Eating Bananas
+1011. Capacity To Ship Packages Within D Days
+1102. Path With Maximum Minimum Value
+1231. Divide Chocolate
