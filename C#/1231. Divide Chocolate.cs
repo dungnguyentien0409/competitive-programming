@@ -11,7 +11,7 @@ public class Solution {
         while(min < max) {
             var mid = (min + max + 1) / 2;
             
-            Console.WriteLine(min + " " + max + " " + mid);
+            //Console.WriteLine(min + " " + max + " " + mid);
             if (CheckResult(sweetness, K, mid)) {
                 min = mid;
             }
@@ -40,7 +40,9 @@ public class Solution {
             }
         }
         
-        return count > cuts;
+        //Console.WriteLine(count + " " + cuts + " " result);
+        Console.WriteLine(count + " " + cuts);
+        return false;
     }
     
     public int GetMinValue(int[] sweetness) {
