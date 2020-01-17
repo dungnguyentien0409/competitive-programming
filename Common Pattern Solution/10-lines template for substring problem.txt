@@ -37,4 +37,6 @@ Problem:
 340. Longest Substring with At Most K Distinct Characters
 395. Longest Substring with At Least K Repeating Characters
 567. Permutation in String
+992. Subarrays with K Different Integers
+1004. Max Consecutive Ones III
 1248. Count Number of Nice Subarrays
