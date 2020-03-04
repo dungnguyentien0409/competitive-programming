@@ -1,4 +1,6 @@
 /**
+ * Link: https://leetcode.com/problems/find-median-from-data-stream/
+ * Author: Dung Nguyen Tien (Chris)
  * initialize your data structure here.
  */
 var MedianFinder = function() {

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximum-product-subarray/
+ * Link: https://leetcode.com/problems/maximum-product-subarray/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number}

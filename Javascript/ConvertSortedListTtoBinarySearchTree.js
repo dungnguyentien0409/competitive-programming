@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/
+ * Link: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

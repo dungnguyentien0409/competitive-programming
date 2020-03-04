@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/path-sum-ii/submissions/
+ * Link: https://leetcode.com/problems/path-sum-ii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

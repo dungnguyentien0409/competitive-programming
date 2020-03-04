@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/validate-binary-search-tree/submissions/
+ * Link: https://leetcode.com/problems/validate-binary-search-tree/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

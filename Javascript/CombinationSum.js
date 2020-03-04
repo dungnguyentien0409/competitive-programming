@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/combination-sum/
+ * Link: https://leetcode.com/problems/combination-sum/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} candidates
  * @param {number} target

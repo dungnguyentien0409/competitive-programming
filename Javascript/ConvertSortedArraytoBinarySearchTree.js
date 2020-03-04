@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+ * Link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

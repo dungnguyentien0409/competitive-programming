@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/fraction-to-recurring-decimal/submissions/
+ * Link: https://leetcode.com/problems/fraction-to-recurring-decimal/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} numerator
  * @param {number} denominator

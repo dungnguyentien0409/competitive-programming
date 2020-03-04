@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/most-common-word/
+ * Link: https://leetcode.com/problems/most-common-word/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} paragraph
  * @param {string[]} banned

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/first-missing-positive/
+ * Link: https://leetcode.com/problems/first-missing-positive/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number}

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/continuous-subarray-sum/submissions/
+ * Link: https://leetcode.com/problems/continuous-subarray-sum/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Implement following idea of compton_scatter
  * @param {number[]} nums

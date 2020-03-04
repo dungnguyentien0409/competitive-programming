@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/play-with-chips/submissions/
+ * Link: https://leetcode.com/problems/play-with-chips/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} chips
  * @return {number}

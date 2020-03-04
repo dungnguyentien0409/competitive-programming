@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/daily-temperatures/
+ * Link: https://leetcode.com/problems/daily-temperatures/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} T
  * @return {number[]}

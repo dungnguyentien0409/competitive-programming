@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/
+ * Link: https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @param {number} k

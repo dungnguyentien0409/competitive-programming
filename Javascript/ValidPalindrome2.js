@@ -1,5 +1,5 @@
 /**
- * Problems: https://leetcode.com/problems/valid-palindrome-ii/submissions/
+ * Link: https://leetcode.com/problems/valid-palindrome-ii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {boolean}

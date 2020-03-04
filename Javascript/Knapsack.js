@@ -1,5 +1,5 @@
 /*
- * Problem: https://codepen.io/pen/?editors=1010
+ * Link: https://codepen.io/pen/?editors=1010
  * Author: Dung Nguyen Tien (Chris)
  * Idea: Tushar Roy
  * Reference: https://www.youtube.com/watch?v=8LusJS5-AGo

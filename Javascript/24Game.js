@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/24-game/
+ * Link: https://leetcode.com/problems/24-game/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {boolean}

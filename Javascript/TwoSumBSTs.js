@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/two-sum-bsts/
+ * Link: https://leetcode.com/problems/two-sum-bsts/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/the-skyline-problem/
+ * Link: https://leetcode.com/problems/the-skyline-problem/
  * Author: Dung Nguyen Tien (Chris)
  * Implement following idea of Tushar Roy
  * Reference: https://www.youtube.com/watch?v=GSBLe8cKu0s

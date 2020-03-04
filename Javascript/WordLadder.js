@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/word-ladder/
+ * Link: https://leetcode.com/problems/word-ladder/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} beginWord
  * @param {string} endWord

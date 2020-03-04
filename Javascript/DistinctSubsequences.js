@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/distinct-subsequences/
+ * Link: https://leetcode.com/problems/distinct-subsequences/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @param {string} t

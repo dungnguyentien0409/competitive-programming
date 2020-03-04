@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/non-overlapping-intervals/
+ * Link: https://leetcode.com/problems/non-overlapping-intervals/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} intervals
  * @return {number}

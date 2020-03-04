@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/132-pattern/solution/
+ * Link: https://leetcode.com/problems/132-pattern/solution/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {boolean}

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/remove-invalid-parentheses/submissions/
+ * Link: https://leetcode.com/problems/remove-invalid-parentheses/submissions/
  * Author: Dung Nguyen Tien (Chirs)
  * @param {string} s
  * @return {string[]}

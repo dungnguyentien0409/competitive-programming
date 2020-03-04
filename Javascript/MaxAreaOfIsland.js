@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/max-area-of-island/
+ * Link: https://leetcode.com/problems/max-area-of-island/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} grid
  * @return {number}

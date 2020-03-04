@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/last-stone-weight-ii/submissions/
+ * Link: https://leetcode.com/problems/last-stone-weight-ii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} stones
  * @return {number}

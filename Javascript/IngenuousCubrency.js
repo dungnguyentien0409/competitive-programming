@@ -1,5 +1,5 @@
 /*
- * Probelm: https://www.spoj.com/problems/COINS/
+ * Link: https://www.spoj.com/problems/COINS/
  * Author: Dung Nguyen Tien (Chris)
 */
 

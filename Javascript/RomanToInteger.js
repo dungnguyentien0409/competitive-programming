@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/roman-to-integer/submissions/
+ * Link: https://leetcode.com/problems/roman-to-integer/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

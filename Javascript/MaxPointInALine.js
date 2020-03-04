@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/max-points-on-a-line/submissions/
+ * Link: https://leetcode.com/problems/max-points-on-a-line/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} points
  * @return {number}

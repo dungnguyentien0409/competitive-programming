@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+ * Link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

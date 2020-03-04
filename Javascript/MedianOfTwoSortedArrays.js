@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * Link: https://leetcode.com/problems/median-of-two-sorted-arrays/
  * Implement: Dung Nguyen Tien (Chris)
  * Idea by: Tushar Roy
  * Reference: https://www.youtube.com/watch?v=LPFhl65R7ww

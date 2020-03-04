@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/toss-strange-coins/submissions/
+ * Link: https://leetcode.com/problems/toss-strange-coins/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} prob
  * @param {number} target

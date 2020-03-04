@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/word-search-ii/submissions/
+ * Link: https://leetcode.com/problems/word-search-ii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {character[][]} board
  * @param {string[]} words

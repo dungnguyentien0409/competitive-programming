@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/unique-paths-iii/submissions/
+ * Link: https://leetcode.com/problems/unique-paths-iii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} grid
  * @return {number}

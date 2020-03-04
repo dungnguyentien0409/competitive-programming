@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/basic-calculator/
+ * Link: https://leetcode.com/problems/basic-calculator/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

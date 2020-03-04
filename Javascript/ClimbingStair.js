@@ -1,5 +1,5 @@
 /**
- * Problems: https://leetcode.com/problems/climbing-stairs/solution/
+ * Link: https://leetcode.com/problems/climbing-stairs/solution/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}

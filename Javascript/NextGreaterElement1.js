@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/next-greater-element-i/submissions/
+ * Link: https://leetcode.com/problems/next-greater-element-i/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Key: Monotonous Stack
  * @param {number[]} nums1

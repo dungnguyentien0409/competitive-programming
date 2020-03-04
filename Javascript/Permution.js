@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/permutations/submissions/
+ * Link: https://leetcode.com/problems/permutations/submissions/
  * Author: Dung Nguyen Tien
  * @param {number[]} nums
  * @return {number[][]}

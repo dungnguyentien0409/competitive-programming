@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/ugly-number-ii/submissions/
+ * Link: https://leetcode.com/problems/ugly-number-ii/submissions/
  * Author: Dung Nguyen Tien Chris
  * @param {number} n
  * @return {number}

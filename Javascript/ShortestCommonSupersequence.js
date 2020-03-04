@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/shortest-common-supersequence/submissions/
+ * Link: https://leetcode.com/problems/shortest-common-supersequence/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} str1
  * @param {string} str2

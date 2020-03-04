@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/submissions/
+ * Link: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} points
  * @return {number}

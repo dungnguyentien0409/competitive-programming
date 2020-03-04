@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/k-closest-points-to-origin/
+ * Link: https://leetcode.com/problems/k-closest-points-to-origin/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} points
  * @param {number} K

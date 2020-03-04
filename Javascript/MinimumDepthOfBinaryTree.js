@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+ * Link: https://leetcode.com/problems/minimum-depth-of-binary-tree/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/delete-operation-for-two-strings/submissions/
+ * Link: https://leetcode.com/problems/delete-operation-for-two-strings/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} word1
  * @param {string} word2

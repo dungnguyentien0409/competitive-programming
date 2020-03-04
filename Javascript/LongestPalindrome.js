@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-palindrome/submissions/
+ * Link: https://leetcode.com/problems/longest-palindrome/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

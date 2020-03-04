@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/word-search/
+ * Link: https://leetcode.com/problems/word-search/
  * Author: Dung Nguyen Tien (Chris)
  * @param {character[][]} board
  * @param {string} word

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} prices
  * @return {number}

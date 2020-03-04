@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/unique-paths/
+ * Link: https://leetcode.com/problems/unique-paths/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} m
  * @param {number} n

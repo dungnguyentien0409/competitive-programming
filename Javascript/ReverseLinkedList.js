@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/reverse-linked-list/submissions/
+ * Link: https://leetcode.com/problems/reverse-linked-list/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/number-of-islands/
+ * Link: https://leetcode.com/problems/number-of-islands/
  * Author: Dung Nguyen Tien (Chris)
  * @param {character[][]} grid
  * @return {number}

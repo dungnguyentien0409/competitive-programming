@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/odd-even-linked-list/
+ * Link: https://leetcode.com/problems/odd-even-linked-list/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

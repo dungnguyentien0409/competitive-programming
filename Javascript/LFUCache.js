@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/lfu-cache/submissions/
+ * Link: https://leetcode.com/problems/lfu-cache/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} capacity
  */

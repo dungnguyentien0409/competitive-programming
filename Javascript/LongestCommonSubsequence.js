@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-common-subsequence/
+ * Link: https://leetcode.com/problems/longest-common-subsequence/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} text1
  * @param {string} text2

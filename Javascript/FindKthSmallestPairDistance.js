@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/find-k-th-smallest-pair-distance/
+ * Link: https://leetcode.com/problems/find-k-th-smallest-pair-distance/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @param {number} k

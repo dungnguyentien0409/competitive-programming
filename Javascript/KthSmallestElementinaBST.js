@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/kth-smallest-element-in-a-bst/submissions/
+ * Link: https://leetcode.com/problems/kth-smallest-element-in-a-bst/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/coin-change/solution/
+ * Link: https://leetcode.com/problems/coin-change/solution/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} coins
  * @param {number} amount

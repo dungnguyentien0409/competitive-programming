@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/course-schedule-ii/
+ * Link: https://leetcode.com/problems/course-schedule-ii/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} numCourses
  * @param {number[][]} prerequisites

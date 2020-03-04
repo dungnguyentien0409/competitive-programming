@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/
+ * Link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

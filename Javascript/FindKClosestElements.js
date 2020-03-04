@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/find-k-closest-elements/
+ * Link: https://leetcode.com/problems/find-k-closest-elements/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} arr
  * @param {number} k

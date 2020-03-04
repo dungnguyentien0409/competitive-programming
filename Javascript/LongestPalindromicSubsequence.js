@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-palindromic-subsequence/
+ * Link: https://leetcode.com/problems/longest-palindromic-subsequence/
  * Author: Dung Nguyen Tien (Chris)
  * Reference: implement following explanation of Mr.Shar
  * Link: https://www.youtube.com/watch?v=_nCsPn7_OgI

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/valid-parentheses/
+ * Link: https://leetcode.com/problems/valid-parentheses/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {boolean}

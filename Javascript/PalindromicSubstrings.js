@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/palindromic-substrings/
+ * Link: https://leetcode.com/problems/palindromic-substrings/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

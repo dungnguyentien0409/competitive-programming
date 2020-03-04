@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/basic-calculator-ii/submissions/
+ * Link: https://leetcode.com/problems/basic-calculator-ii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

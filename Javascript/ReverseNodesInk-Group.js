@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/
+ * Link: https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

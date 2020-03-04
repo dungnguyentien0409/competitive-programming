@@ -1,5 +1,5 @@
 /**
- * Prolems: https://leetcode.com/problems/next-greater-element-iii/submissions/
+ * Link: https://leetcode.com/problems/next-greater-element-iii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+ * Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number}

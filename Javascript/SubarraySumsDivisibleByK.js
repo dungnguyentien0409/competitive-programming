@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/subarray-sums-divisible-by-k/
+ * Link: https://leetcode.com/problems/subarray-sums-divisible-by-k/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} A
  * @param {number} K

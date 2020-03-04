@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/subsets/submissions/
+ * Link: https://leetcode.com/problems/subsets/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number[][]}

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+ * Link: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number[]}

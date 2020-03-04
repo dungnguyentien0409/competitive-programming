@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximum-length-of-pair-chain/submissions/
+ * Link: https://leetcode.com/problems/maximum-length-of-pair-chain/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} pairs
  * @return {number}

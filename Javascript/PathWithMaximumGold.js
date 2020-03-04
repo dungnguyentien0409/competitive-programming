@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/path-with-maximum-gold/
+ * Link: https://leetcode.com/problems/path-with-maximum-gold/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} grid
  * @return {number}

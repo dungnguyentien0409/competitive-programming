@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/merge-intervals/submissions/
+ * Link: https://leetcode.com/problems/merge-intervals/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} intervals
  * @return {number[][]}

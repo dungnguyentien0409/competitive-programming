@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/n-queens/submissions/
+ * Link: https://leetcode.com/problems/n-queens/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {string[][]}

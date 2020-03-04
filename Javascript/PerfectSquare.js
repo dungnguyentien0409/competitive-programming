@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/perfect-squares/
+ * Link: https://leetcode.com/problems/perfect-squares/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}

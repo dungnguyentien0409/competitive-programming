@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/fibonacci-number/
+ * Link: https://leetcode.com/problems/fibonacci-number/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} N
  * @return {number}

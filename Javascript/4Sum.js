@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/4sum/
+ * Link: https://leetcode.com/problems/4sum/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @param {number} target

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/partition-equal-subset-sum/
+ * Link: https://leetcode.com/problems/partition-equal-subset-sum/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {boolean}

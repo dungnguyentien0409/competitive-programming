@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/burst-balloons/
+ * Link: https://leetcode.com/problems/burst-balloons/
  * Dung Nguyen Tien (Chris)
  * Idea: from Tushar Roy
  * @param {number[]} nums

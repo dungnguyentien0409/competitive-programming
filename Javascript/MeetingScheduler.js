@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/meeting-scheduler/
+ * Link: https://leetcode.com/problems/meeting-scheduler/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} slots1
  * @param {number[][]} slots2

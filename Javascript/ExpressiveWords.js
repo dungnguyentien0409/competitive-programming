@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/expressive-words/submissions/
+ * Link: https://leetcode.com/problems/expressive-words/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} S
  * @param {string[]} words

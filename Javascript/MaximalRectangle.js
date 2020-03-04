@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximal-rectangle/
+ * Link: https://leetcode.com/problems/maximal-rectangle/
  * Author: Dung Nguyen Tien (Chris)
  * @param {character[][]} matrix
  * @return {number}

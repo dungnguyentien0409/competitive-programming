@@ -1,5 +1,5 @@
 /*
- * Problem: https://www.spoj.com/problems/BYTESM2/
+ * Link: https://www.spoj.com/problems/BYTESM2/
  * Author: Dung Nguyen Tien (Chris)
 */
 function findTheMaxStone(arr) {

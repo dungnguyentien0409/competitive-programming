@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/combinations/submissions/
+ * Link: https://leetcode.com/problems/combinations/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @param {number} k

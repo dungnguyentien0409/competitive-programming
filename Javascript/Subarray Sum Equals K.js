@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/subarray-sum-equals-k/
+ * Link: https://leetcode.com/problems/subarray-sum-equals-k/
  * Author: Dung Nguyen Tien
  * @param {number[]} nums
  * @param {number} k

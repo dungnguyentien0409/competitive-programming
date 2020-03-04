@@ -1,17 +1,11 @@
 /**
- * Problem: https://leetcode.com/problems/car-pooling/submissions/
+ * Link: https://leetcode.com/problems/car-pooling/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} trips
  * @param {number} capacity
  * @return {boolean}
  */
-/**
- * Problem: https://leetcode.com/problems/car-pooling/submissions/
- * Author: Dung Nguyen Tien (Chris)
- * @param {number[][]} trips
- * @param {number} capacity
- * @return {boolean}
- */
+
 var carPooling = function(trips, capacity) {
     var timeCapacities = generateByTime(trips);
     var c = 0;

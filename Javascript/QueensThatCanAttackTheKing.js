@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/queens-that-can-attack-the-king/
+ * Link: https://leetcode.com/problems/queens-that-can-attack-the-king/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} queens
  * @param {number[]} king

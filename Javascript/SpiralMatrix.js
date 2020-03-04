@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/spiral-matrix/submissions/
+ * Link: https://leetcode.com/problems/spiral-matrix/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} matrix
  * @return {number[]}

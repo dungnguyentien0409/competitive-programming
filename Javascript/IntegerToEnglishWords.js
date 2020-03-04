@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/integer-to-english-words/
+ * Link: https://leetcode.com/problems/integer-to-english-words/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} num
  * @return {string}

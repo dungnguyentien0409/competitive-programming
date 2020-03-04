@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-increasing-subsequence/solution/
+ * Link: https://leetcode.com/problems/longest-increasing-subsequence/solution/
  * Author: Dung Nguyen Tien (Chris)
  * Reference: https://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
  * @param {number[]} nums

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/linked-list-cycle-ii/submissions/
+ * Link: https://leetcode.com/problems/linked-list-cycle-ii/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

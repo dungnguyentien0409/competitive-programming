@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-consecutive-sequence/submissions/
+ * Link: https://leetcode.com/problems/longest-consecutive-sequence/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number}

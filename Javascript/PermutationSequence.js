@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/permutation-sequence/
+ * Link: https://leetcode.com/problems/permutation-sequence/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @param {number} k

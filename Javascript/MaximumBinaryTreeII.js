@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximum-binary-tree-ii/
+ * Link: https://leetcode.com/problems/maximum-binary-tree-ii/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

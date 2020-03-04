@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/jump-game/
+ * Link: https://leetcode.com/problems/jump-game/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {boolean}

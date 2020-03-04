@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-palindromic-substring/
+ * Link: https://leetcode.com/problems/longest-palindromic-substring/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {string}

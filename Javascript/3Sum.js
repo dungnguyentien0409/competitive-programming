@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/3sum/
+ * Link: https://leetcode.com/problems/3sum/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number[][]}

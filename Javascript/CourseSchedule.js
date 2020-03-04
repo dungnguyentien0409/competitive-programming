@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/course-schedule/submissions/
+ * Link: https://leetcode.com/problems/course-schedule/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} numCourses
  * @param {number[][]} prerequisites

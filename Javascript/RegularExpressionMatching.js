@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/regular-expression-matching/submissions/
+ * Link: https://leetcode.com/problems/regular-expression-matching/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Idea: Tushar Roy
  * Reference: https://www.youtube.com/watch?v=l3hda49XcDE

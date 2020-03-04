@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/count-primes/
+ * Link: https://leetcode.com/problems/count-primes/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}

@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/generate-parentheses/
+ * Link: https://leetcode.com/problems/generate-parentheses/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {string[]}

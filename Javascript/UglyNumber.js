@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/ugly-number/
+ * Link: https://leetcode.com/problems/ugly-number/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} num
  * @return {boolean}

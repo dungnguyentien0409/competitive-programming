@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/friend-circles/
+ * Link: https://leetcode.com/problems/friend-circles/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} M
  * @return {number}

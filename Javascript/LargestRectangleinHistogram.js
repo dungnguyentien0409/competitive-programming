@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/largest-rectangle-in-histogram/
+ * Link: https://leetcode.com/problems/largest-rectangle-in-histogram/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} heights
  * @return {number}

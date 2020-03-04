@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/missing-number-in-arithmetic-progression/
+ * Link: https://leetcode.com/problems/missing-number-in-arithmetic-progression/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} arr
  * @return {number}

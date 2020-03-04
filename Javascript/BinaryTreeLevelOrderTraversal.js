@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/
+ * Link: https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

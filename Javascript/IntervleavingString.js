@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/interleaving-string/
+ * Link: https://leetcode.com/problems/interleaving-string/
  * Implement: Dung Nguyen Tien (Chris)
  * Idea by: Tushar Roy
  * Reference: https://www.youtube.com/watch?v=ih2OZ9-M3OM

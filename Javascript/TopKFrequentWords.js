@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/top-k-frequent-words/
+ * Link: https://leetcode.com/problems/top-k-frequent-words/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string[]} words
  * @param {number} k

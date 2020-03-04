@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/rotate-image/
+ * Link: https://leetcode.com/problems/rotate-image/
  * Author: Dung Nguyen Tien (Chris)
  * Reference: shichaotan
  * @param {number[][]} matrix

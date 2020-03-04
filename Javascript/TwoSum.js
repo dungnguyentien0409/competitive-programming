@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/two-sum/submissions/
+ * Link: https://leetcode.com/problems/two-sum/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @param {number} target

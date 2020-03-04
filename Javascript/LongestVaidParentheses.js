@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-valid-parentheses/solution/
+ * Link: https://leetcode.com/problems/longest-valid-parentheses/solution/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

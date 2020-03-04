@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/edit-distance/
+ * Link: https://leetcode.com/problems/edit-distance/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} word1
  * @param {string} word2

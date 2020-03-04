@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/count-vowels-permutation/submissions/
+ * Link: https://leetcode.com/problems/count-vowels-permutation/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} n
  * @return {number}

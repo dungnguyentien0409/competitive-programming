@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/palindrome-partitioning/submissions/
+ * Link: https://leetcode.com/problems/palindrome-partitioning/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {string[][]}

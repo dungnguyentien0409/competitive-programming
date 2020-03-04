@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+ * Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} prices
  * @return {number}

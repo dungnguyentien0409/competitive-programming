@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximal-square/submissions/
+ * Link: https://leetcode.com/problems/maximal-square/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Reference: earlme
  * @param {character[][]} matrix

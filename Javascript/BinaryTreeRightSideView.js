@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/binary-tree-right-side-view/
+ * Link: https://leetcode.com/problems/binary-tree-right-side-view/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

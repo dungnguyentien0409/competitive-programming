@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/01-matrix/submissions/
+ * Link: https://leetcode.com/problems/01-matrix/submissions/
  * Author: Dung Nguyen Tien (Chirs)
  * @param {number[][]} matrix
  * @return {number[][]}

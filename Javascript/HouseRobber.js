@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/house-robber/
+ * Link: https://leetcode.com/problems/house-robber/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number}

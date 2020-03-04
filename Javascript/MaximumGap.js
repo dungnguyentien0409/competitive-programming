@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximum-gap/submissions/
+ * Link: https://leetcode.com/problems/maximum-gap/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number}

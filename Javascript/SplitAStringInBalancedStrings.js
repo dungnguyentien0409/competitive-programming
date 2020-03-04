@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/split-a-string-in-balanced-strings/
+ * Link: https://leetcode.com/problems/split-a-string-in-balanced-strings/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @return {number}

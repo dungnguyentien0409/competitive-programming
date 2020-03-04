@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/check-if-it-is-a-straight-line/
+ * Link: https://leetcode.com/problems/check-if-it-is-a-straight-line/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} coordinates
  * @return {boolean}

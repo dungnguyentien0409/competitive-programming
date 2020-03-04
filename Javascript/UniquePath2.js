@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/unique-paths-ii/
+ * Link: https://leetcode.com/problems/unique-paths-ii/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} obstacleGrid
  * @return {number}

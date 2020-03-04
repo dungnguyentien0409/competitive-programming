@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/sudoku-solver/submissions/
+ * Link: https://leetcode.com/problems/sudoku-solver/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.

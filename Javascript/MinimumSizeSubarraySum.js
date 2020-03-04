@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/
+ * Link: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} s
  * @param {number[]} nums

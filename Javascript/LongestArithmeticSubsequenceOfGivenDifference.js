@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
+ * Link: https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} arr
  * @param {number} difference

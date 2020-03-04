@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/coin-change-2/
+ * Link: https://leetcode.com/problems/coin-change-2/
  * Authoir: Dung Nguyen Tien (Chris)
  * @param {number} amount
  * @param {number[]} coins

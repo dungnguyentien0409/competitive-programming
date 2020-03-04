@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+ * Link: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} A
  * @param {number[]} B

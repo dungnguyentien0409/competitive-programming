@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+ * Link: https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @param {number} k

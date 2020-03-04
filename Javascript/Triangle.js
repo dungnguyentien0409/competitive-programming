@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/triangle/submissions/
+ * Link: https://leetcode.com/problems/triangle/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} triangle
  * @return {number}

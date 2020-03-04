@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/wildcard-matching/submissions/
+ * Link: https://leetcode.com/problems/wildcard-matching/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Idea by Tushar Roy
  * @param {string} s

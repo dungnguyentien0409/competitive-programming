@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/contest/biweekly-contest-10/problems/intersection-of-three-sorted-arrays/
+ * Link: https://leetcode.com/contest/biweekly-contest-10/problems/intersection-of-three-sorted-arrays/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} arr1
  * @param {number[]} arr2

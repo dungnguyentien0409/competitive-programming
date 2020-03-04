@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/valid-sudoku/submissions/
+ * Link: https://leetcode.com/problems/valid-sudoku/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {character[][]} board
  * @return {boolean}

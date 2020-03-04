@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/
+ * Link: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

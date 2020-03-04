@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/frog-jump/
+ * Link: https://leetcode.com/problems/frog-jump/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} stones
  * @return {boolean}

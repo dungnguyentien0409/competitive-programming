@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/course-schedule-iii/
+ * Link: https://leetcode.com/problems/course-schedule-iii/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} courses
  * @return {number}

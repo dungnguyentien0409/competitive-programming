@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/
+ * Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

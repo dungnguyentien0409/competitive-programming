@@ -1,5 +1,5 @@
 /**
- * Problem https://leetcode.com/problems/next-permutation/submissions/
+ * Link: https://leetcode.com/problems/next-permutation/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.

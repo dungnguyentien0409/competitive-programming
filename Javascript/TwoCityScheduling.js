@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/two-city-scheduling/
+ * Link: https://leetcode.com/problems/two-city-scheduling/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} costs
  * @return {number}

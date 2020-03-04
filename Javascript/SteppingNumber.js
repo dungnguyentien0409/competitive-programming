@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/stepping-numbers/
+ * Link: https://leetcode.com/problems/stepping-numbers/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} low
  * @param {number} high

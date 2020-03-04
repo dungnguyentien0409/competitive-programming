@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/product-of-array-except-self/submissions/
+ * Link: https://leetcode.com/problems/product-of-array-except-self/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @return {number[]}

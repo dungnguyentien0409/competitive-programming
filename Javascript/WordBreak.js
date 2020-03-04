@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/word-break/
+ * Link: https://leetcode.com/problems/word-break/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} s
  * @param {string[]} wordDict

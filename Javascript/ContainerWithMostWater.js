@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/container-with-most-water/
+ * Link: https://leetcode.com/problems/container-with-most-water/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} height
  * @return {number}

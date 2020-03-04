@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/top-k-frequent-elements/
+ * Link: https://leetcode.com/problems/top-k-frequent-elements/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} nums
  * @param {number} k

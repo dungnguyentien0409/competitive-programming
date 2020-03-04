@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/merge-k-sorted-lists/
+ * Link: https://leetcode.com/problems/merge-k-sorted-lists/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * function ListNode(val) {

@@ -1,5 +1,5 @@
 /*
- * Problem: https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
+ * Link: https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[][]} matrix
  * @return {number[][]}

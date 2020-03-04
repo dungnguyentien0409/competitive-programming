@@ -1,5 +1,5 @@
 /*
- * Problem: https://www.spoj.com/problems/ACODE/
+ * Link: https://www.spoj.com/problems/ACODE/
  * Author: Dung Nguyen Tien (Chris)
 */
 function countWayDecodings(s) {

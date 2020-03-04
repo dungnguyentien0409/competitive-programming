@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/binary-tree-maximum-path-sum/
+ * Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/
  * Author: Dung Nguyen Tien (Chris)
  * Definition for a binary tree node.
  * function TreeNode(val) {

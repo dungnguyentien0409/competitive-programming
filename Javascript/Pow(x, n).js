@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/powx-n/
+ * Link: https://leetcode.com/problems/powx-n/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number} x
  * @param {number} n

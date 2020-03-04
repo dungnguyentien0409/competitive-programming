@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/trapping-rain-water/
+ * Link: https://leetcode.com/problems/trapping-rain-water/
  * Author: Dung Nguyen Tien (Chris)
  * @param {number[]} height
  * @return {number}

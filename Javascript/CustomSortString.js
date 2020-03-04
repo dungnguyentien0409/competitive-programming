@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/custom-sort-string/submissions/
+ * Link: https://leetcode.com/problems/custom-sort-string/submissions/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} S
  * @param {string} T

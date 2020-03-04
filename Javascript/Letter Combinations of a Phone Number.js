@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+ * Link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
  * Author: Dung Nguyen Tien (Chris)
  * @param {string} digits
  * @return {string[]}
