@@ -1,36 +1,28 @@
 /*
  * Link: https://leetcode.com/problems/valid-parenthesis-string/submissions/
  * Author: Dung Nguyen Tien (Chris)
+ * Idea: sansi
 */
 
 public class Solution {
     public bool CheckValidString(string s) {
-        var res = backtrack(s, 0, 0);
+        int low = 0, high = 0;
         
-        return res;
-    }
-    
-    public bool backtrack(string s, int start, int count) {
-        if (start >= s.Length) {
-            if (count == 0) return true;
+        foreach(var c in s) {
+            if (c == '(') {
+                low++; high++;
+            }
+            else if (c == ')') {
+                low--; high--;
+            }
+            else { // c == '*'
+                low--; high++;
+            }
             
-            return false;
+            if (low < 0) low = 0;
+            if (high < 0) return false;
         }
         
-        for(var i = start; i < s.Length; i++) {
-            if (s[i] == '(') count++;
-            else if (s[i] == ')') {
-                count--;
-                
-                if (count < 0) return false;
-            }
-            else if (s[i] == '*') {
-                return backtrack(s, i + 1, count + 1)
-                    || backtrack(s, i + 1, count - 1)
-                    || backtrack(s, i + 1, count);
-            }
-        }
-        
-        return count == 0;
+        return low == 0;
     }
 }
