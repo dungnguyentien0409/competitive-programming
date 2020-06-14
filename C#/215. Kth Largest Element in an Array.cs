@@ -5,67 +5,51 @@
 
 public class Solution {
     public int FindKthLargest(int[] nums, int k) {
-        var heap = new MaxHeap(nums);
-        var ith = 1;
-        
-        while(ith < k) {
-            ith++;
-            var item = heap.Poll();
+        int left = 0, right = nums.Length - 1;
+        int pivot = -1;
+        k = nums.Length - k;
+            
+        while(left < right) {
+            pivot = Partition(nums, left, right);
+            
+            if (pivot == k) {
+                return nums[k];
+            }
+            else if (pivot < k) {
+                left = pivot + 1;
+            }
+            else {
+                right = pivot - 1;
+            }
         }
         
-        return heap.Peek();
-    }
-}
-
-public class MaxHeap {
-    public List<int> heap;
-    
-    public MaxHeap(int[] nums) {
-        heap = new List<int>(nums);
-        BuildHeap();
+        return nums[k];
     }
     
-    public int Count() { return heap.Count; }
-    
-    public int Peek() {
-        return heap[0];
-    }
-    
-    public int Poll() {
-        var item = heap[0];
+    public int Partition(int[] nums, int left, int right) {
         
-        swap(0, heap.Count - 1);
-        heap.RemoveAt(heap.Count - 1);
-        heapify(0);
+        int pivot = nums[right];
+        int i = left - 1;
         
-        return item;
-    }
-    
-    public void BuildHeap() {
-        for(var i = heap.Count / 2 - 1; i >= 0; i--) {
-            heapify(i);
+        for (var j = left; j < right; j++) {
+            if (nums[j] < pivot) {
+                i++;
+                Swap(nums, i, j);
+            }
         }
+        
+        // swap pivot to its correct position
+        i++;
+        Swap(nums, i, right);
+        
+        return i;
     }
     
-    public void heapify(int pos) {
-        var left = 2 * pos + 1;
-        var right = 2 * pos + 2;
-        var max = pos;
-        
-        if (left < heap.Count && heap[max] < heap[left]) max = left;
-        if (right < heap.Count && heap[max] < heap[right]) max = right;
-        
-        if (max != pos) {
-            swap(max, pos);
-            heapify(max);
-        }
-    }
-    
-    public void swap(int x, int y) {
+    public void Swap(int[] nums, int x, int y) {
         if (x == y) return;
         
-        var tmp = heap[x];
-        heap[x] = heap[y];
-        heap[y] = tmp;
+        var tmp = nums[x];
+        nums[x] = nums[y];
+        nums[y] = tmp;
     }
 }
