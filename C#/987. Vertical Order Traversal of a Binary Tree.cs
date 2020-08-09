@@ -11,66 +11,53 @@
  */
 public class Solution {
     public IList<IList<int>> VerticalTraversal(TreeNode root) {
-        var height = GetHeight(root);
-        var width = 2 * height - 1;
-        var result = CreateResult(width);
+        var map = new Dictionary<int, List<Node>>();
         
-        InOrder(root, width / 2, 0, result);
+        Inorder(map, root, 0, 0);
         
-        result = result.Where(w => w.Count > 0).ToList();
-        foreach(List<Node> l in result) {
-            l.Sort(delegate(Node a, Node b) {
-                if (a.y == b.y) {
-                    return a.value - b.value;
-                }
-            
+        var res = FormatResult(map);
+        
+        return res;
+    }
+    
+    public List<IList<int>> FormatResult(Dictionary<int, List<Node>> map) {
+        var res = new List<IList<int>>();
+        
+        int min = map.Keys.Min(), max = map.Keys.Max();
+        
+        for (var k = min; k <= max; k++) {
+            map[k].Sort(delegate(Node a, Node b) {
+                if (a.x == b.x && a.y == b.y) return a.val - b.val; 
+                
                 return a.y - b.y;
             });
+            
+            var tmp = map[k].Select(s => s.val).ToList();
+            res.Add(tmp);
         }
         
-        var f_result = new List<IList<int>>();
-        
-        foreach(var l in result) {
-            IList<int> tmp = l.Select(s => s.value).ToList();
-            f_result.Add(tmp);
-        }
-        
-        return f_result;
+        return res;
     }
     
-    public void InOrder(TreeNode node, int x, int y, List<IList<Node>> result) {
+    public void Inorder(Dictionary<int, List<Node>> map, TreeNode node, int x, int y) {
         if (node == null) return;
         
-        result[x].Add(new Node(x, y, node.val));
-        InOrder(node.left, x - 1, y + 1, result);
-        InOrder(node.right, x + 1, y + 1, result);
-    }
-    
-    public List<IList<Node>> CreateResult(int width) {
-        var result = new List<IList<Node>>();
+        if (!map.ContainsKey(x)) map[x] = new List<Node>();
         
-        for (var i = 0; i < width; i++) {
-            result.Add(new List<Node>());
-        }
-        
-        return result;
-    }
-    
-    public int GetHeight(TreeNode root) {
-        if (root == null) return 0;
-        
-        return 1 + Math.Max(GetHeight(root.left), GetHeight(root.right));
+        map[x].Add(new Node(x, y, node.val));
+        Inorder(map, node.left, x - 1, y + 1);
+        Inorder(map, node.right, x + 1, y + 1);
     }
 }
 
 public class Node {
     public int x;
     public int y;
-    public int value;
+    public int val;
     
-    public Node(int x, int y, int v) {
-        this.x = x;
-        this.y = y;
-        this.value = v;
+    public Node(int x1, int y1, int v) {
+        x = x1;
+        y = y1;
+        val = v;
     }
 }
