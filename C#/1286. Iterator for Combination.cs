@@ -4,35 +4,56 @@
 */
 
 public class CombinationIterator {
-    Queue<string> queue;
+    Stack<char> st;
+    Dictionary<char, int> map;
+    string res, str;
+    int len;
     
     public CombinationIterator(string characters, int combinationLength) {
-        queue = new Queue<string>();
+        st = new Stack<char>();
+        map = new Dictionary<char, int>();
+        res = "";
+        str = characters;
+        len = combinationLength;
         
-        backtrack(queue, new StringBuilder(), characters, 0, combinationLength);
+        for (var i = 0; i < characters.Length; i++) {
+            var c = characters[i];
+            
+            map.Add(c, i);
+            
+            if (res.Length < len) {
+                st.Push(c);
+                res += c;
+            }
+        }
     }
     
     public string Next() {
-        return queue.Dequeue();
+        var current = res;
+        var index = str.Length - 1;
+        
+        while(st.Count > 0 && map[st.Peek()] == index) {
+            st.Pop();
+            index--;
+            res = res.Substring(0, res.Length - 1);
+        }
+        
+        if (st.Count == 0) return current;
+        
+        index = map[st.Pop()];
+        res = res.Substring(0, res.Length - 1);
+        
+        while(res.Length < len) {
+            res += str[++index];
+            st.Push(str[index]);
+        }
+        
+        
+        return current;
     }
     
     public bool HasNext() {
-        return queue.Count > 0;
-    }
-    
-    public void backtrack(Queue<string> queue, StringBuilder sb, string characters, int pos, int combinationLength) {
-        if (sb.Length == combinationLength) {
-            queue.Enqueue(sb.ToString());
-            return;
-        }
-        
-        for (var i = pos; i < characters.Length; i++) {
-            sb.Append(characters[i]);
-            
-            backtrack(queue, sb, characters, i + 1, combinationLength);
-            
-            sb.Remove(sb.Length - 1, 1);
-        }
+        return st.Count > 0;
     }
 }
 
