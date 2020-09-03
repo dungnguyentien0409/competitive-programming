@@ -9,28 +9,29 @@ public class Solution {
         if (t < 0) return false;
         
         var map = new Dictionary<long, long>();
-        var divisor = (long)t + 1;
         
         for (var i = 0; i < nums.Length; i++) {
-            var number = getKey(nums[i], divisor);
+            var n = nums[i];
+            var key = GetKey(n, t + 1);
             
-            if (map.ContainsKey(number)
-               || (map.ContainsKey(number - 1) && Math.Abs(nums[i] - map[number - 1]) < divisor)
-               || (map.ContainsKey(number + 1) && Math.Abs(nums[i] - map[number + 1]) < divisor))
-               return true;
+            Console.WriteLine(n + " " + key);
             
-            map[number] = (long)nums[i];
+            if (map.ContainsKey(key) && (long)Math.Abs(map[key] - n) <= t) return true;
+            if (map.ContainsKey(key - 1) && (long)Math.Abs(map[key - 1] - n) <= t) return true;
+            if (map.ContainsKey(key + 1) && (long)Math.Abs(map[key + 1] - n) <= t) return true;
+            
+            map[key] = n;
             
             if (i >= k) {
-                var key = getKey(nums[i - k], divisor);
-                map.Remove(key);
+                var k_remove = GetKey(nums[i - k], t + 1);
+                map.Remove(k_remove);
             }
         }
         
         return false;
     }
     
-    public long getKey(long n, long d) {
-        return n < 0 ? (n + 1) / d - 1 : n / d;
+    public long GetKey(int n, int t) {
+        return (long) n / t;
     }
 }
