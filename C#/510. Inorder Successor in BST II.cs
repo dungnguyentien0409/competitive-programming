@@ -11,25 +11,27 @@ public class Node {
 */
 public class Solution {
     public Node InorderSuccessor(Node x) {
-        if (x == null) return x;
-        
-        if (x.right == null) {
-            var result = x.parent;
+        if (x.right != null) {
+            x = x.right;
             
-            while(result != null && result.val < x.val) {
-                result = result.parent;
+            while(x.left != null) {
+                x = x.left;
             }
             
-            return result;
+            return x;
         }
         else {
-            var result = x.right;
+            Node tmp = x;
             
-            while(result != null && result.left != null) {
-                result = result.left;
+            while(x.parent != null) {
+                x = x.parent;
+                
+                if (x.left == tmp) return x;
+                
+                tmp = x;
             }
-            
-            return result;
         }
+        
+        return null;
     }
 }
