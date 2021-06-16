@@ -14,4 +14,4 @@ Linkedin: https://www.linkedin.com/in/dun-nguyen-9623b014b/
 
 Email: dungnguyentien0409@gmail.com
 
-Phone Number: +60102909425 (Malaysia)
+Phone Number: +601117667954 (Malaysia)
