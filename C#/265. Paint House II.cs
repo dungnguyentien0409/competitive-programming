@@ -1,56 +1,34 @@
-/*
- * Link: https://leetcode.com/problems/paint-house-ii/
- * Author: Dung Nguyen Tien (Chris)
-*/
-
 public class Solution {
     public int MinCostII(int[][] costs) {
         if (costs.Length == 0 || costs[0].Length == 0) return 0;
-        if (costs.Length == 1) return GetMin(costs[0]);
         
-        int houses = costs.Length;
-        int colors = costs[0].Length;
-        var dp = CreateDP(colors);
-        var current = CreateDP(colors);
+        int preMin1 = 0, preMin2 = 0, iPreMin = -1;
+        int k = costs[0].Length;
         
-        for (var i = 0; i < houses; i++) {
-            for (var j = 0; j < colors; j++) {
-                // if paint the current house with color j => calculate min fee
-                current[j] = GetPreviousMin(dp, j) + costs[i][j];
+        if (k == 1) {
+            return costs.Length == 1 ? costs[0][0] : -1;
+        }
+        for(var i = 0; i < costs.Length; i++) {
+            int min1 = Int32.MaxValue, min2 = Int32.MaxValue, imin = -1;
+            
+            for (var j = 0; j < k; j++) {
+                int val = costs[i][j] + (j == iPreMin ? preMin2 : preMin1);
+                
+                if (val < min1) {
+                    min2 = min1;
+                    min1 = val;
+                    imin = j;
+                }
+                else if (val < min2) {
+                    min2 = val;
+                }
             }
             
-            Array.Copy(current, dp, colors);
+            preMin1 = min1;
+            preMin2 = min2;
+            iPreMin = imin;
         }
         
-        return GetMin(dp);
-    }
-    
-    public int GetPreviousMin(int[] dp, int pos) {
-        var min = Int32.MaxValue;
-        
-        for (var i = 0; i < dp.Length; i++) {
-            if (i != pos) {
-                min = Math.Min(min, dp[i]);
-            }
-        }
-        
-        return min;
-    }
-    
-    public int GetMin(int[] dp) {
-        var min = Int32.MaxValue;
-        
-        for (var i = 0; i < dp.Length; i++) {
-            min = Math.Min(min, dp[i]);
-        }
-        
-        return min;
-    }
-    
-    public int[] CreateDP(int color) {
-        var dp = new int[color];
-        Array.Fill(dp, 0);
-        
-        return dp;
+        return preMin1;
     }
 }
