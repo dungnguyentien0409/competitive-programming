@@ -2,6 +2,7 @@
 2. Use binary search to find middle result
 3. Check for that result if possible, increasr if not decrease
 
+287. Find the Duplicate Number
 378. Kth Smallest Element in a Sorted Matrix
 410. Split Array Largest Sum
 774. Minimize Max Distance to Gas Station
