@@ -10,15 +10,14 @@ public class Solution {
         while(left < right) {
             var mid = (left + right) / 2;
             
-            if (nums[mid] < nums[right]) {
-                right = mid;
-            }
-            else if (nums[mid] > nums[right]) {
+            if (nums[mid] > nums[right]) {
                 left = mid + 1;
             }
+            else if (nums[mid] < nums[right]) {
+                right = mid;
+            }
             else {
-                if (right != 0 && nums[right - 1] <= nums[right]) right--;
-                else return nums[right];
+                right--;
             }
         }
         
