@@ -1,46 +1,32 @@
 /**
- * Link: https://leetcode.com/problems/reverse-linked-list-ii/submissions/
- * Author: Dung Nguyen Tien (Chris)
  * Definition for singly-linked list.
  * public class ListNode {
  *     public int val;
  *     public ListNode next;
- *     public ListNode(int x) { val = x; }
+ *     public ListNode(int val=0, ListNode next=null) {
+ *         this.val = val;
+ *         this.next = next;
+ *     }
  * }
  */
 public class Solution {
-    public ListNode ReverseBetween(ListNode head, int m, int n) {
-        if (head.next == null) return head;
+    public ListNode ReverseBetween(ListNode head, int left, int right) {
+        var dummy = new ListNode(-1);
+        dummy.next = head;
         
-        var dummyNode = new ListNode(-1);
-        dummyNode.next = head;
-        
-        var previous = dummyNode;
-        var current = dummyNode.next;
-        var first = current;
-        var after = current.next;
-        var i = 1;
-        
-        while (i <= n) {
-            if (i >= m) {
-                if (i == m) {
-                    first = current;
-                }
-                current.next = previous;
-            }
-            
-            if (i == n) break;
-            
-            previous = current;
-            current = after;
-            after = after.next;
-            i++;
+        ListNode prev = dummy;
+        for(var i = 0; i < left - 1; i++) {
+            prev = prev.next;
         }
         
-        var start = first.next;
-        first.next = after;
-        start.next = current;
+        ListNode cur = prev.next;
+        for (var i = left; i < right; i++) {
+            var next = cur.next;
+            cur.next = next.next;
+            next.next = prev.next;
+            prev.next = next;
+        }
         
-        return dummyNode.next;
+        return dummy.next;
     }
 }
